@@ -13,12 +13,12 @@ function Login() {
 
     try {
       const response = await api.post(
-        "/auth/login",
-        {
-          email,
-          password,
-        }
-      );
+  "/auth/login",
+  {
+    email,
+    password,
+  }
+);
 
       localStorage.setItem(
         "token",

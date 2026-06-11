@@ -19,14 +19,14 @@ function Register() {
     try {
 
       const response =
-        await api.post(
-          "/auth/register",
-          {
-            name,
-            email,
-            password,
-          }
-        );
+    await api.post(
+  "/auth/register",
+  {
+    name,
+    email,
+    password,
+  }
+);
 
       console.log(
         response.data

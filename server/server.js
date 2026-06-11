@@ -9,6 +9,7 @@ const authRoutes = require(
     "./routes/authRoutes"
 );
 
+app.use(cors());
 
 const dashboardRoutes =
     require("./routes/dashboardRoutes");
