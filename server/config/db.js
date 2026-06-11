@@ -14,10 +14,6 @@ const connectDB = async () => {
             "Trying to connect..."
         );
 
-        console.log(
-            process.env.MONGO_URI
-        );
-
         await mongoose.connect(
             process.env.MONGO_URI
         );
